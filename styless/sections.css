@@ -3,7 +3,7 @@ section header{
   padding-block: 12px 24px;
   font: var(--text-span);
 
-  header a{
+  a {
     justify-self: end;
     align-items: center;
     gap: 8px;
@@ -65,8 +65,6 @@ section header{
 
  #weekly{
   
-  
-
   &>div{
     grid-template-columns: repeat(4,292px);
   }
